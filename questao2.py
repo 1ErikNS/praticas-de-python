@@ -8,3 +8,10 @@ from random import randint
 
 loop = False
 while not loop:
+    numero_aleatorio = randint(1,100)
+    print(numero_aleatorio)
+
+    adivinhacao = False
+    while not adivinhacao:
+        numero_usuario = int(input('Digite um número: '))
+
