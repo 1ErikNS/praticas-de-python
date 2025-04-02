@@ -13,3 +13,7 @@ loop = False
 while not loop:
     distancia = float(input('Digite a distância do teodolito ao prédio: '))
     angulo = float(input('Digite o ângulo de elevação até o topo do prédio: '))
+    
+    altura_predio = distancia * math.tan(math.radians(angulo))
+
+    print(f'A altura do prédio é: {altura_predio:.2f}')
