@@ -15,3 +15,9 @@ while not loop:
     while not adivinhacao:
         numero_usuario = int(input('Digite um número: '))
 
+        if(numero_usuario == numero_aleatorio):
+            print('Parabéns você conseguiu adivinhar!!!!')
+            adivinhacao = True
+        else:
+            print('Não foi dessa vez tente novamente!')
+
