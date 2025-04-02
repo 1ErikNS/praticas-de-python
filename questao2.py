@@ -21,3 +21,6 @@ while not loop:
         else:
             print('Não foi dessa vez tente novamente!')
 
+    continuar = input('Deseja jogar novamente?(S/N): ')
+    if(continuar == 'N'):
+        loop = True
