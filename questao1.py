@@ -17,3 +17,7 @@ while not loop:
     altura_predio = distancia * math.tan(math.radians(angulo))
 
     print(f'A altura do prédio é: {altura_predio:.2f}')
+
+    sair = input('Deseja parar o programa?(S/N): ')
+    if (sair == 'S'):
+        loop = True
