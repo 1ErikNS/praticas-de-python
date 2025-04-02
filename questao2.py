@@ -4,3 +4,7 @@ vai recebendo feedbacks indicando se o número alvo é "maior" ou "menor" que o
 último palpite dado. Para sortear um número inteiro, podemos usar a função
 randint do módulo random.'''
 
+from random import randint
+
+loop = False
+while not loop:
